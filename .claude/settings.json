@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(npm list -g *)",
+      "Bash(node create_news.js)",
+      "Bash(node --version)"
+    ]
+  }
+}
