@@ -3,10 +3,17 @@
     "allow": [
       "WebSearch",
       "WebFetch",
-      "mcp__Claude_in_Chrome__tabs_context_mcp",
-      "Bash(npm list -g *)",
-      "Bash(node create_news.js)",
-      "Bash(node --version)"
+      "Bash(npm install*)",
+      "Bash(npm list*)",
+      "Bash(node make_news_*.js)",
+      "Bash(node --version)",
+      "Bash(ls*)",
+      "Bash(base64 -w 0 *.docx > /tmp/docx_b64.txt)",
+      "Bash(cat /tmp/docx_b64.txt)",
+      "Bash(git fetch origin main)",
+      "Bash(git reset --hard origin/main)",
+      "Bash(git log --oneline*)",
+      "Bash(git status)"
     ]
   }
 }
